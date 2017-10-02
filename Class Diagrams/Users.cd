@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Comment CommentText="Usuarios de CslaEx">
+    <Position X="0.552" Y="2.458" Height="0.292" Width="1.252" />
+  </Comment>
+  <Comment CommentText="Usuarios de System.Security">
+    <Position X="0.51" Y="0.5" Height="0.292" Width="1.648" />
+  </Comment>
+  <Class Name="CslaEx.ApplicationContextEx">
+    <Position X="0.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>ApplicationContextEx.cs</FileName>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="User" />
+    </ShowAsAssociation>
+    <AssociationLine Name="User" Type="CslaEx.IPrincipalEx">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.185" Y="0.11" />
+      </MemberNameLabel>
+    </AssociationLine>
+  </Class>
+  <Interface Name="CslaEx.IIdentityEx">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BusinessPrincipalBaseEx.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAgAAAQAgAAIAAAAAAAAAAAAAAAABAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CslaEx.IPrincipalEx">
+    <Position X="3.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>IPrincipalEx.cs</FileName>
+      <HashCode>IAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Identity" />
+    </ShowAsAssociation>
+    <AssociationLine Name="Identity" Type="CslaEx.IIdentityEx">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.37" Y="0.102" />
+      </MemberNameLabel>
+    </AssociationLine>
+  </Interface>
+  <Interface Name="System.Security.Principal.IPrincipal">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Identity" />
+    </ShowAsAssociation>
+    <AssociationLine Name="Identity" Type="System.Security.Principal.IIdentity">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.31" Y="0.152" Height="0.16" Width="0.805" />
+      </MemberNameLabel>
+    </AssociationLine>
+  </Interface>
+  <Interface Name="System.Security.Principal.IIdentity">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+</ClassDiagram>

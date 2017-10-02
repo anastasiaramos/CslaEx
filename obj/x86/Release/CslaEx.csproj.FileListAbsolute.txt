@@ -1,0 +1,17 @@
+C:\VS Projects Git\CslaEx\bin\x86\Release\CslaEx.dll
+C:\VS Projects Git\CslaEx\bin\x86\Release\CslaEx.pdb
+C:\VS Projects Git\CslaEx\bin\x86\Release\es\CslaEx.resources.dll
+C:\VS Projects Git\CslaEx\bin\x86\Release\NHibernate.dll
+C:\VS Projects Git\CslaEx\bin\x86\Release\Npgsql.dll
+C:\VS Projects Git\CslaEx\bin\x86\Release\Iesi.Collections.dll
+C:\VS Projects Git\CslaEx\bin\x86\Release\Castle.DynamicProxy.dll
+C:\VS Projects Git\CslaEx\bin\x86\Release\log4net.dll
+C:\VS Projects Git\CslaEx\bin\x86\Release\Mono.Security.dll
+C:\VS Projects Git\CslaEx\obj\x86\Release\CslaEx.Properties.Resources.resources
+C:\VS Projects Git\CslaEx\obj\x86\Release\CslaEx.Resources.Enums.resources
+C:\VS Projects Git\CslaEx\obj\x86\Release\CslaEx.Resources.Messages.resources
+C:\VS Projects Git\CslaEx\obj\x86\Release\CslaEx.Properties.Resources.es.resources
+C:\VS Projects Git\CslaEx\obj\x86\Release\CslaEx.csproj.GenerateResource.Cache
+C:\VS Projects Git\CslaEx\obj\x86\Release\es\CslaEx.resources.dll
+C:\VS Projects Git\CslaEx\obj\x86\Release\CslaEx.dll
+C:\VS Projects Git\CslaEx\obj\x86\Release\CslaEx.pdb
